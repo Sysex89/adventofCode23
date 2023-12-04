@@ -4,7 +4,7 @@ use std::path::Path;
 
 fn main() {
     let mut res: u64 = 0;
-   if let Ok(lines) = read_lines("./input") {
+   if let Ok(lines) = read_lines("../../input") {
         for line in lines {
           if  let Ok(ip) = line {
 
